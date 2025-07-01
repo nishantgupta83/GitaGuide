@@ -1,0 +1,21 @@
+
+[
+  {
+    "title": "Crisis and Duty",
+    "description": "You face a moral dilemma at work...",
+    "category": "duty",
+    "chapter": 1,
+    "heartResponse": "Avoid confrontation out of fear.",
+    "dutyResponse": "Stand up for what is right, even if hard.",
+    "gitaWisdom": "You have a right to perform your duty...",
+    "actionSteps": [
+      "Pause and reflect.",
+      "Consult a mentor.",
+      "Act with inner courage."
+    ],
+    "verse": "You have a right to perform your duty...",
+    "verseNumber": "Chapter 1, Verse 47",
+    "stickFigureScene": "scenario_ch1_1",
+    "tags": ["moral", "career"]
+  }
+]

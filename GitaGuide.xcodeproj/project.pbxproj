@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		90DDBFB32E0BEC6F000DDA08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90DDBFB12E0BEC6F000DDA08 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		90DDBF032E0A2C2B000DDA08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,28 @@
 		90DDBEF52E0A2C27000DDA08 /* GitaGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitaGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DDBF022E0A2C2B000DDA08 /* GitaGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitaGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DDBF0C2E0A2C2B000DDA08 /* GitaGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitaGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DDBFB52E0BED94000DDA08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90DDBFB62E0BEDA2000DDA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90DDBFBA2E0BF071000DDA08 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90DDBFBB2E0BF088000DDA08 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		90DDBFA62E0BEA16000DDA08 /* Exceptions for "GitaGuide" folder in "GitaGuide" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 90DDBEF42E0A2C27000DDA08 /* GitaGuide */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		90DDBEF72E0A2C27000DDA08 /* GitaGuide */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				90DDBFA62E0BEA16000DDA08 /* Exceptions for "GitaGuide" folder in "GitaGuide" target */,
+			);
 			path = GitaGuide;
 			sourceTree = "<group>";
 		};
@@ -79,6 +100,7 @@
 				90DDBF052E0A2C2B000DDA08 /* GitaGuideTests */,
 				90DDBF0F2E0A2C2B000DDA08 /* GitaGuideUITests */,
 				90DDBEF62E0A2C27000DDA08 /* Products */,
+				90DDBFB12E0BEC6F000DDA08 /* Localizable.strings */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +214,8 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				es,
 			);
 			mainGroup = 90DDBEEC2E0A2C27000DDA08;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DDBFB32E0BEC6F000DDA08 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +293,27 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		90DDBFB12E0BEC6F000DDA08 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DDBFB52E0BED94000DDA08 /* en */,
+				90DDBFB62E0BEDA2000DDA08 /* Base */,
+				90DDBFBA2E0BF071000DDA08 /* hi */,
+				90DDBFBB2E0BF088000DDA08 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		90DDBF142E0A2C2B000DDA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -338,6 +378,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -400,6 +441,7 @@
 				DEVELOPMENT_TEAM = ZW6PP4YAN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitaGuide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +470,7 @@
 				DEVELOPMENT_TEAM = ZW6PP4YAN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitaGuide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

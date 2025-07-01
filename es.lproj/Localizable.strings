@@ -1,0 +1,431 @@
+/* 
+  Localizable.strings
+  GitaGuide
+
+  Created by Nishant Gupta on 6/25/25.
+  
+*/
+"app_title" = "Gita Sabiduría";
+"todays_wisdom" = "✨ Sabiduría de Hoy";
+"choose_wisdom" = "Elige Sabiduría";
+"chapter" = "Capítulo";
+"verse" = "Verso";
+"home" = "Inicio";
+"chapters" = "Capítulos";
+"quotes" = "Citas";
+"settings" = "Configuración";
+"search" = "Buscar";
+"favorite" = "Favorito";
+"share" = "Compartir";
+"read_more" = "Leer Más";
+"done" = "Hecho";
+"loading" = "Cargando...";
+"choose_language" = "Elegir Idioma";
+"language" = "Idioma";
+//
+"chapter_browser_title" = "Capítulos";
+"chapter" = "Capítulo";
+"verse" = "Verso";
+"verses" = "Versos";
+"read_chapter" = "Leer Capítulo";
+"chapter_summary" = "Resumen del Capítulo";
+"key_teachings" = "Enseñanzas Clave";
+"practical_application" = "Aplicación Práctica";
+//
+"scenarios" = "Escenarios";
+"journal" = "Diario";
+"about" = "Acerca de";
+"all" = "Todos";
+"search_scenarios" = "Buscar escenarios...";
+"about_title" = "Acerca de GitaGuide";
+"about_description" = "GitaGuide transforma la sabiduría atemporal del Bhagavad Gita en orientación práctica para las decisiones de la vida moderna.";
+"about_chapter1" = "Basado en el Capítulo 1: El Dilema de Arjuna";
+"about_chapter1_description" = "El primer capítulo del Bhagavad Gita presenta el dilema humano universal: el conflicto entre emoción y deber, apego personal y acción justa. Esta aplicación te ayuda a navegar desafíos similares en tu vida diaria.";
+"how_it_works" = "Cómo Funciona";
+"how_it_works_description" = "• Explora escenarios de la vida real basados en la sabiduría del Gita\n• Obtén orientación para navegar decisiones difíciles\n• Registra tus experiencias y rastrea tu crecimiento\n• Aplica sabiduría antigua a desafíos modernos";
+"gita_quote" = "\"Mejor es el propio dharma, aunque se realice imperfectamente, que el dharma de otro bien realizado.\" - Bhagavad Gita";
+
+"search_chapters_placeholder" = "Buscar capítulos, temas o nombres en sánscrito...";
+
+// Gita Chapter Titles
+"ch1_title" = "El dilema de Arjuna";
+"ch2_title" = "El camino del conocimiento";
+"ch3_title" = "El camino de la acción";
+"ch4_title" = "Camino del conocimiento y la acción";
+"ch5_title" = "El camino de la renuncia";
+"ch6_title" = "El camino de la meditación";
+"ch7_title" = "Conocimiento supremo y sabiduría";
+"ch8_title" = "El Brahman eterno";
+"ch9_title" = "El conocimiento y secreto real";
+"ch10_title" = "Glorias divinas";
+"ch11_title" = "La visión de la forma universal";
+"ch12_title" = "El camino de la devoción";
+"ch13_title" = "El campo y el conocedor";
+"ch14_title" = "Las tres cualidades de la naturaleza";
+"ch15_title" = "La persona suprema";
+"ch16_title" = "Naturalezas divina y demoníaca";
+"ch17_title" = "Las tres formas de fe";
+"ch18_title" = "La libertad mediante la renuncia";
+
+// Chapter Themes
+"ch1_theme" = "Crisis moral/interna y deber";
+"ch2_theme" = "Alma eterna y sabiduría constante";
+"ch3_theme" = "Acción desinteresada y deber";
+"ch4_theme" = "Sabiduría y tradición sagrada";
+"ch5_theme" = "Renuncia verdadera y libertad interior";
+"ch6_theme" = "Disciplina y paz interior";
+"ch7_theme" = "Comprensión de la naturaleza divina";
+"ch8_theme" = "Trascendencia y lo eterno";
+"ch9_theme" = "Devoción y gracia divina";
+"ch10_theme" = "Reconocimiento de manifestaciones divinas";
+"ch11_theme" = "La visión cósmica";
+"ch12_theme" = "Amor, entrega y servicio";
+"ch13_theme" = "Cuerpo, alma y conciencia";
+"ch14_theme" = "Fuerzas de la naturaleza y trascendencia";
+"ch15_theme" = "La realidad suprema";
+"ch16_theme" = "Carácter y cualidades morales";
+"ch17_theme" = "Fe, alimento y práctica";
+"ch18_theme" = "Entrega final y liberación";
+
+// LifeCategory Keys
+"self_identity" = "Yo e identidad";
+"family_relationships" = "Familia y relaciones";
+"work_duty" = "Trabajo y deber";
+"morals_dilemmas" = "Moral y dilemas";
+"mind_emotions" = "Mente y emociones";
+"learning_youth" = "Aprendizaje y juventud";
+"digital_modern_life" = "Vida digital y moderna";
+"spiritual_growth" = "Crecimiento espiritual";
+
+
+// Common phrases
+"namaste" = "Namasté";
+"om_shanti" = "Om Shanti";
+"sri_krishna" = "Sri Krishna";
+"bhagavad_gita" = "Bhagavad Gita";
+
+// Chapter Browser
+"chapters_of_wisdom" = "18 Capítulos de Sabiduría";
+"complete_gita_guide" = "Guía Completa del Bhagavad Gita";
+"search_chapters_placeholder" = "Buscar capítulos, temas o nombres en sánscrito...";
+"scenarios" = "escenarios";
+"verses" = "versos";
+"chapter_statistics" = "📊 Estadísticas de Capítulos";
+"statistics" = "Estadísticas";
+"avg_chapter" = "Prom/Capítulo";
+"total" = "total";
+
+// Chapter Detail
+"overview" = "Resumen";
+"read_more" = "Leer más";
+"key_teachings" = "Enseñanzas Clave";
+"modern_applications" = "Aplicaciones Modernas";
+"related_scenarios" = "Escenarios Relacionados";
+"no_scenarios_available" = "Aún no hay escenarios disponibles para este capítulo.";
+"view_all_scenarios" = "Ver Todos los %d Escenarios";
+"chapter_number" = "Capítulo %d";
+
+"chapters_of_wisdom" = "18 Capítulos de Sabiduría";
+"complete_gita_guide" = "Guía Completa del Bhagavad Gita";
+"search_chapters_placeholder" = "Buscar capítulos, temas o nombres en sánscrito...";
+"avg_chapter" = "Prom/Capítulo";
+"chapter_statistics" = "📊 Estadísticas del Capítulo";
+"statistics" = "Estadísticas";
+"total" = "total";
+"overview" = "Resumen";
+"read_more" = "Leer más";
+"key_teachings" = "Enseñanzas Clave";
+"modern_applications" = "Aplicaciones Modernas";
+"related_scenarios" = "Escenarios Relacionados";
+"no_scenarios_available" = "Aún no hay escenarios disponibles para este capítulo.";
+"view_all_scenarios" = "Ver los %d Escenarios";
+"chapter_number" = "Capítulo %d";
+"teachings" = "Enseñanzas";
+
+// WisdomResponseView Keys
+"chapter_number" = "Capítulo %d";
+"the_dilemma" = "El Dilema";
+"wisdom_from_gita" = "Sabiduría del Gita";
+"suggested_actions" = "✅ Acciones Sugeridas";
+"reflect_journal" = "Reflexionar y Anotar";
+"explore_more_scenarios" = "Explorar Más Escenarios";
+"guidance" = "Orientación";
+"your_reflection" = "Tu Reflexión";
+"reflection_placeholder" = "¿Cómo se relaciona este escenario con tu vida? ¿Qué perspectivas obtuviste de la sabiduría del Gita?";
+"your_chosen_path" = "Tu Camino Elegido";
+"follow_heart" = "Seguir el Corazón";
+"follow_duty" = "Seguir el Deber";
+"balanced_approach" = "Enfoque Equilibrado";
+"expected_outcome" = "Resultado Esperado";
+"outcome_placeholder" = "¿Qué esperas que suceda con tu enfoque elegido?";
+"how_helpful_guidance" = "¿Qué Tan Útil Fue Esta Orientación?";
+"not_helpful" = "No Útil";
+"very_helpful" = "Muy Útil";
+"journal_entry" = "Entrada de Diario";
+"cancel" = "Cancelar";
+"save" = "Guardar";
+
+// ScenarioDetailView Keys
+"the_two_paths" = "Los Dos Caminos";
+"heart_says" = "💭 El Corazón Dice";
+"duty_says" = "⚖️ El Deber Dice";
+"related_topics" = "Temas Relacionados";
+"get_gita_wisdom" = "Obtener Sabiduría del Gita";
+
+// ChapterBrowserView Keys
+"chapters_wisdom_title" = "18 Capítulos de Sabiduría";
+"explore_complete_gita" = "Explora el Bhagavad Gita completo";
+"search_chapters" = "Buscar capítulos...";
+
+//
+"about" = "Acerca de";
+"more" = "Más";
+"more_title" = "Más"; //"Acerca de Wisdom - App";
+"future_enhancements" = "Qué viene después";
+"read_gita_english" = "Enlace de descarga - Inglés";
+"read_gita_spanish" = "Enlace de descarga - Español";
+"about_description_short" = "Descripción";
+"english_version" = "Inglés";
+"spanish_version" = "Español";
+"upcoming_features_description" = "Cosas increíbles vienen en camino";
+
+// HomeView Keys
+"gita_guide" = "Antigua Guide";
+"ancient_wisdom_modern_dilemmas" = "Sabiduría Antigua para Dilemas Modernos";
+"todays_dilemma" = "Dilema de Hoy";
+"heart_says_short" = "💭 El Corazón Dice:";
+"duty_says_short" = "⚖️ El Deber Dice:";
+"get_wisdom" = "Obtener Sabiduría";
+"random_scenario" = "Escenario Aleatorio";
+"my_journal" = "Mi Diario";
+"browse_all" = "Ver Todos";
+"gita_shalokas" = "Shalokas del Gita";
+"recent_reflections" = "Reflexiones Recientes";
+"reflection" = "Reflexión";
+
+// JournalView Keys
+"all" = "Todos";
+"recent" = "Recientes";
+"high_rated" = "Mejor Calificados";
+"by_category" = "Por Categoría";
+"start_wisdom_journey" = "Comienza Tu Viaje de Sabiduría";
+"journal_description" = "Reflexiona sobre dilemas y rastrea tu crecimiento usando sabiduría antigua. Tus perspectivas se guardarán aquí.";
+"explore_scenarios" = "Explorar Escenarios";
+"entries" = "Entradas";
+"avg_rating" = "Calificación Prom";
+"categories" = "Categorías";
+"path_chosen" = "Camino elegido:";
+"expected_outcome_label" = "Resultado esperado:";
+
+// LoadingScreenView Keys
+"loading_wisdom" = "Cargando sabiduría...";
+
+// ScenarioCardView & StickFigureView Keys
+"heart_short" = "💭 Corazón";
+"duty_short" = "⚖️ Deber";
+"heart_says" = "💭 El Corazón Dice";
+"duty_says" = "⚖️ El Deber Dice";
+
+// Character & Animation View Keys
+"arjuna" = "Arjuna";
+"krishna" = "Krishna";
+"the_warrior" = "El Guerrero";
+"the_guide" = "El Guía";
+"young_warrior" = "Joven Guerrero";
+"divine_friend" = "Amigo Divino";
+"the_eternal_dilemma" = "El Dilema Eterno";
+"attachment" = "Apego";
+"dharma" = "Dharma";
+"righteous_duty" = "Deber Justo";
+"the_big_decision" = "La Gran Decisión";
+"dharma_says" = "El Dharma Dice";
+"gita_wisdom_quote" = "\"Tu derecho es realizar tus acciones, pero nunca a los frutos de la acción.\"";
+"growth_quote" = "\"¡A veces las decisiones más difíciles llevan al mayor crecimiento!\"";
+
+"ch1_teaching1" = "Traducción Española capítulo1 Enseñanza1";
+"ch1_teaching2" = "Traducción Española capítulo1 Enseñanza2";
+"ch1_teaching3" = "Traducción Española capítulo1 Enseñanza3";
+"ch1_teaching4" = "Traducción Española capítulo1 Enseñanza4";
+"ch1_app1" = "Traducción Española capítulo1 uso1";
+"ch1_app2" = "Traducción Española capítulo1 uso2";
+"ch1_app3" = "Traducción Española capítulo1 uso3";
+"ch1_app4" = "Traducción Española capítulo1 uso4";
+"ch1_description" = "El primer capítulo prepara el escenario del Bhagavad Gita, describiendo el profundo conflicto interno de Arjuna en el campo de batalla de Kurukshetra. Abrumado por el apego, la compasión y la confusión, Arjuna deja sus armas y se niega a luchar contra sus propios familiares. Su dilema representa la lucha humana universal entre los lazos emocionales y el dharma (acción justa), abriendo la puerta al consejo espiritual de Krishna.";
+
+"ch2_description" = "En este capítulo fundamental, Krishna transmite el conocimiento del ser eterno (Atman), explicando que los sabios no lamentan por el cuerpo. Introduce la filosofía del Sankhya y enfatiza el karma yoga — cumplir con el deber sin apego a los resultados.";
+
+"ch3_description" = "Krishna enseña la importancia del karma yoga — acción desinteresada realizada como un deber hacia la sociedad y lo divino. Advierte contra la inacción y enfatiza alinear la conducta personal con la responsabilidad universal.";
+
+"ch4_description" = "Krishna revela que esta sabiduría espiritual es eterna y ha sido transmitida a través de un linaje divino. Explica cómo las acciones realizadas con conocimiento no atan y alienta a aprender de un maestro realizado.";
+
+"ch5_description" = "Krishna aclara que el verdadero renunciamiento es la desapego interno, no la retirada de la acción. Tanto el conocimiento como la acción conducen a la liberación cuando se practican con la mentalidad correcta.";
+
+"ch6_description" = "Este capítulo ofrece técnicas prácticas para la meditación y el estilo de vida ideal de un yogui. Krishna enfatiza la autodisciplina, el equilibrio y la devoción constante.";
+
+"ch7_description" = "Krishna introduce los conceptos de sus energías inferiores (materiales) y superiores (espirituales), y la importancia tanto de la fe como de la realización. Solo aquellos con profunda devoción pueden percibir su verdadera naturaleza.";
+"ch8_description" = "Krishna revela el camino para alcanzar el Brahman imperecedero mediante el recuerdo al momento de la muerte. Explica dos caminos — de retorno y no retorno — y asegura la liberación a los devotos.";
+"ch9_description" = "Krishna comparte el conocimiento espiritual más confidencial: el poder del bhakti. Explica que incluso los pecadores sinceros pueden alcanzar la liberación a través de la devoción.";
+"ch10_description" = "Krishna muestra cómo se manifiesta a través de la excelencia en la creación — desde la inteligencia hasta las fuerzas naturales. Reconocer estas glorias fortalece el amor y la devoción.";
+"ch11_description" = "Arjuna contempla la forma universal (Vishwarupa) de Krishna, viendo todo el cosmos como una sola realidad divina. Abrumado, se rinde con reverencia.";
+"ch12_description" = "Krishna describe la devoción (bhakti) como el camino supremo. Detalla con amor las cualidades de sus devotos y asegura que incluso la más pequeña ofrenda sincera es aceptada.";
+"ch13_description" = "Krishna explica la diferencia entre el cuerpo (campo) y el ser consciente (conocedor). Este marco filosófico conduce a la liberación mediante la comprensión correcta del yo y lo divino.";
+"ch14_description" = "Krishna clasifica los tres modos de la naturaleza material (gunas) y cómo moldean el comportamiento humano. La verdadera libertad se alcanza al trascender estas cualidades mediante la devoción.";
+"ch15_description" = "Mediante una imagen poética, Krishna describe el mundo material perecedero y el alma eterna. Se revela como el Purushottama — la Suprema Persona Divina — alcanzable solo mediante la devoción.";
+"ch16_description" = "Krishna distingue entre las cualidades divinas y demoníacas, instando a Arjuna a cultivar la humildad, el autocontrol y la fe. Las cualidades demoníacas conducen al apego; las divinas, a la liberación.";
+"ch17_description" = "Krishna explica cómo la fe, la comida y los rituales varían según los gunas. La fe sátvica eleva, mientras que las prácticas rajásicas y tamásicas degradan. Enfatiza la pureza del pensamiento y la acción.";
+"ch18_description" = "El capítulo final resume todas las enseñanzas. Krishna insta a Arjuna a actuar según su deber, entregar su ego y refugiarse por completo en lo divino para alcanzar la liberación (moksha).";
+
+
+"ch2_teaching1" = "Traducción Española capítulo2 Enseñanza1";
+"ch2_teaching2" = "Traducción Española capítulo2 Enseñanza2";
+"ch2_teaching3" = "Traducción Española capítulo2 Enseñanza3";
+"ch2_teaching4" = "Traducción Española capítulo2 Enseñanza4";
+"ch2_app1" = "Traducción Española capítulo2 uso1";
+"ch2_app2" = "Traducción Española capítulo2 uso2";
+"ch2_app3" = "Traducción Española capítulo2 uso3";
+"ch2_app4" = "Traducción Española capítulo2 uso4";
+
+"ch3_teaching1" = "Traducción Española capítulo3 Enseñanza1";
+"ch3_teaching2" = "Traducción Española capítulo3 Enseñanza2";
+"ch3_teaching3" = "Traducción Española capítulo3 Enseñanza3";
+"ch3_teaching4" = "Traducción Española capítulo3 Enseñanza4";
+"ch3_app1" = "Traducción Española capítulo3 uso1";
+"ch3_app2" = "Traducción Española capítulo3 uso2";
+"ch3_app3" = "Traducción Española capítulo3 uso3";
+"ch3_app4" = "Traducción Española capítulo3 uso4";
+
+"ch4_teaching1" = "Traducción Española capítulo4 Enseñanza1";
+"ch4_teaching2" = "Traducción Española capítulo4 Enseñanza2";
+"ch4_teaching3" = "Traducción Española capítulo4 Enseñanza3";
+"ch4_teaching4" = "Traducción Española capítulo4 Enseñanza4";
+"ch4_app1" = "Traducción Española capítulo4 uso1";
+"ch4_app2" = "Traducción Española capítulo4 uso2";
+"ch4_app3" = "Traducción Española capítulo4 uso3";
+"ch4_app4" = "Traducción Española capítulo4 uso4";
+
+"ch5_teaching1" = "Traducción Española capítulo5 Enseñanza1";
+"ch5_teaching2" = "Traducción Española capítulo5 Enseñanza2";
+"ch5_teaching3" = "Traducción Española capítulo5 Enseñanza3";
+"ch5_teaching4" = "Traducción Española capítulo5 Enseñanza4";
+"ch5_app1" = "Traducción Española capítulo5 uso1";
+"ch5_app2" = "Traducción Española capítulo5 uso2";
+"ch5_app3" = "Traducción Española capítulo5 uso3";
+"ch5_app4" = "Traducción Española capítulo5 uso4";
+"ch5_description" = "Traducción Española capítulo5 descripción";
+"ch6_teaching1" = "Traducción Española capítulo6 Enseñanza1";
+"ch6_teaching2" = "Traducción Española capítulo6 Enseñanza2";
+"ch6_teaching3" = "Traducción Española capítulo6 Enseñanza3";
+"ch6_teaching4" = "Traducción Española capítulo6 Enseñanza4";
+"ch6_app1" = "Traducción Española capítulo6 uso1";
+"ch6_app2" = "Traducción Española capítulo6 uso2";
+"ch6_app3" = "Traducción Española capítulo6 uso3";
+"ch6_app4" = "Traducción Española capítulo6 uso4";
+
+"ch7_teaching1" = "Traducción Española capítulo7 Enseñanza1";
+"ch7_teaching2" = "Traducción Española capítulo7 Enseñanza2";
+"ch7_teaching3" = "Traducción Española capítulo7 Enseñanza3";
+"ch7_teaching4" = "Traducción Española capítulo7 Enseñanza4";
+"ch7_app1" = "Traducción Española capítulo7 uso1";
+"ch7_app2" = "Traducción Española capítulo7 uso2";
+"ch7_app3" = "Traducción Española capítulo7 uso3";
+"ch7_app4" = "Traducción Española capítulo7 uso4";
+
+"ch8_teaching1" = "Traducción Española capítulo8 Enseñanza1";
+"ch8_teaching2" = "Traducción Española capítulo8 Enseñanza2";
+"ch8_teaching3" = "Traducción Española capítulo8 Enseñanza3";
+"ch8_teaching4" = "Traducción Española capítulo8 Enseñanza4";
+"ch8_app1" = "Traducción Española capítulo8 uso1";
+"ch8_app2" = "Traducción Española capítulo8 uso2";
+"ch8_app3" = "Traducción Española capítulo8 uso3";
+"ch8_app4" = "Traducción Española capítulo8 uso4";
+
+"ch9_teaching1" = "Traducción Española capítulo9 Enseñanza1";
+"ch9_teaching2" = "Traducción Española capítulo9 Enseñanza2";
+"ch9_teaching3" = "Traducción Española capítulo9 Enseñanza3";
+"ch9_teaching4" = "Traducción Española capítulo9 Enseñanza4";
+"ch9_app1" = "Traducción Española capítulo9 uso1";
+"ch9_app2" = "Traducción Española capítulo9 uso2";
+"ch9_app3" = "Traducción Española capítulo9 uso3";
+"ch9_app4" = "Traducción Española capítulo9 uso4";
+
+"ch10_teaching1" = "Traducción Española capítulo10 Enseñanza1";
+"ch10_teaching2" = "Traducción Española capítulo10 Enseñanza2";
+"ch10_teaching3" = "Traducción Española capítulo10 Enseñanza3";
+"ch10_teaching4" = "Traducción Española capítulo10 Enseñanza4";
+"ch10_app1" = "Traducción Española capítulo10 uso1";
+"ch10_app2" = "Traducción Española capítulo10 uso2";
+"ch10_app3" = "Traducción Española capítulo10 uso3";
+"ch10_app4" = "Traducción Española capítulo10 uso4";
+
+"ch11_teaching1" = "Traducción Española capítulo11 Enseñanza1";
+"ch11_teaching2" = "Traducción Española capítulo11 Enseñanza2";
+"ch11_teaching3" = "Traducción Española capítulo11 Enseñanza3";
+"ch11_teaching4" = "Traducción Española capítulo11 Enseñanza4";
+"ch11_app1" = "Traducción Española capítulo11 uso1";
+"ch11_app2" = "Traducción Española capítulo11 uso2";
+"ch11_app3" = "Traducción Española capítulo11 uso3";
+"ch11_app4" = "Traducción Española capítulo11 uso4";
+
+"ch12_teaching1" = "Traducción Española capítulo12 Enseñanza1";
+"ch12_teaching2" = "Traducción Española capítulo12 Enseñanza2";
+"ch12_teaching3" = "Traducción Española capítulo12 Enseñanza3";
+"ch12_teaching4" = "Traducción Española capítulo12 Enseñanza4";
+"ch12_app1" = "Traducción Española capítulo12 uso1";
+"ch12_app2" = "Traducción Española capítulo12 uso2";
+"ch12_app3" = "Traducción Española capítulo12 uso3";
+"ch12_app4" = "Traducción Española capítulo12 uso4";
+
+"ch13_teaching1" = "Traducción Española capítulo13 Enseñanza1";
+"ch13_teaching2" = "Traducción Española capítulo13 Enseñanza2";
+"ch13_teaching3" = "Traducción Española capítulo13 Enseñanza3";
+"ch13_teaching4" = "Traducción Española capítulo13 Enseñanza4";
+"ch13_app1" = "Traducción Española capítulo13 uso1";
+"ch13_app2" = "Traducción Española capítulo13 uso2";
+"ch13_app3" = "Traducción Española capítulo13 uso3";
+"ch13_app4" = "Traducción Española capítulo13 uso4";
+
+"ch14_teaching1" = "Traducción Española capítulo14 Enseñanza1";
+"ch14_teaching2" = "Traducción Española capítulo14 Enseñanza2";
+"ch14_teaching3" = "Traducción Española capítulo14 Enseñanza3";
+"ch14_teaching4" = "Traducción Española capítulo14 Enseñanza4";
+"ch14_app1" = "Traducción Española capítulo14 uso1";
+"ch14_app2" = "Traducción Española capítulo14 uso2";
+"ch14_app3" = "Traducción Española capítulo14 uso3";
+"ch14_app4" = "Traducción Española capítulo14 uso4";
+
+"ch15_teaching1" = "Traducción Española capítulo15 Enseñanza1";
+"ch15_teaching2" = "Traducción Española capítulo15 Enseñanza2";
+"ch15_teaching3" = "Traducción Española capítulo15 Enseñanza3";
+"ch15_teaching4" = "Traducción Española capítulo15 Enseñanza4";
+"ch15_app1" = "Traducción Española capítulo15 uso1";
+"ch15_app2" = "Traducción Española capítulo15 uso2";
+"ch15_app3" = "Traducción Española capítulo15 uso3";
+"ch15_app4" = "Traducción Española capítulo15 uso4";
+
+"ch16_teaching1" = "Traducción Española capítulo16 Enseñanza1";
+"ch16_teaching2" = "Traducción Española capítulo16 Enseñanza2";
+"ch16_teaching3" = "Traducción Española capítulo16 Enseñanza3";
+"ch16_teaching4" = "Traducción Española capítulo16 Enseñanza4";
+"ch16_app1" = "Traducción Española capítulo16 uso1";
+"ch16_app2" = "Traducción Española capítulo16 uso2";
+"ch16_app3" = "Traducción Española capítulo16 uso3";
+"ch16_app4" = "Traducción Española capítulo16 uso4";
+
+"ch17_teaching1" = "Traducción Española capítulo17 Enseñanza1";
+"ch17_teaching2" = "Traducción Española capítulo17 Enseñanza2";
+"ch17_teaching3" = "Traducción Española capítulo17 Enseñanza3";
+"ch17_teaching4" = "Traducción Española capítulo17 Enseñanza4";
+"ch17_app1" = "Traducción Española capítulo17 uso1";
+"ch17_app2" = "Traducción Española capítulo17 uso2";
+"ch17_app3" = "Traducción Española capítulo17 uso3";
+"ch17_app4" = "Traducción Española capítulo17 uso4";
+
+"ch18_teaching1" = "Traducción Española capítulo18 Enseñanza1";
+"ch18_teaching2" = "Traducción Española capítulo18 Enseñanza2";
+"ch18_teaching3" = "Traducción Española capítulo18 Enseñanza3";
+"ch18_teaching4" = "Traducción Española capítulo18 Enseñanza4";
+"ch18_app1" = "Traducción Española capítulo18 uso1";
+"ch18_app2" = "Traducción Española capítulo18 uso2";
+"ch18_app3" = "Traducción Española capítulo18 uso3";
+"ch18_app4" = "Traducción Española capítulo18 uso4";
+

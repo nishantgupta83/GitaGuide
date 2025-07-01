@@ -1,0 +1,511 @@
+/*
+  Localizable.strings
+  GitaGuide
+
+  Created by Nishant Gupta on 6/25/25.
+  
+*/
+// Localizable.strings (English - Base)
+"app_title" = "Gita Gyan";
+"todays_wisdom" = "✨ Today's Wisdom";
+"choose_wisdom" = "Choose Wisdom";
+"chapter" = "Chapter";
+"verse" = "Verse";
+"home" = "Home";
+"chapters" = "Chapters";
+"quotes" = "Quotes";
+"settings" = "Settings";
+"search" = "Search";
+"favorite" = "Favorite";
+"share" = "Share";
+"read_more" = "Read More";
+"loading" = "Loading...";
+//
+"chapter_browser_title" = "Chapters";
+"chapter" = "Chapter";
+"verse" = "Verse";
+"verses" = "Verses";
+"read_chapter" = "Read Chapter";
+"chapter_summary" = "Chapter Summary";
+"key_teachings" = "Key Teachings";
+"practical_application" = "Practical Application";
+//
+"scenarios" = "Scenarios";
+"journal" = "Journal";
+"about" = "About";
+"all" = "All";
+"search_scenarios" = "Search scenarios...";
+"about_title" = "About GitaGuide";
+"about_description" = "GitaGuide transforms the timeless wisdom of the Bhagavad Gita into practical guidance for modern life decisions.";
+"about_chapter1" = "Based on Chapter 1: Arjuna's Dilemma";
+"about_chapter1_description" = "The first chapter of the Bhagavad Gita presents the universal human dilemma - the conflict between emotion and duty, personal attachment and righteous action. This app helps you navigate similar challenges in your daily life.";
+"how_it_works" = "How It Works";
+"how_it_works_description" = "• Explore real-life scenarios based on Gita wisdom\n• Get guidance on navigating difficult decisions\n• Journal your experiences and track your growth\n• Apply ancient wisdom to modern challenges";
+"gita_quote" = "\"Better is one's own dharma, though imperfectly performed, than the dharma of another well performed.\" - Bhagavad Gita";
+// LifeCategory Keys
+"self_identity" = "Self & Identity";
+"family_relationships" = "Family & Relationships";
+"work_duty" = "Work & Duty";
+"morals_dilemmas" = "Morals & Dilemmas";
+"mind_emotions" = "Mind & Emotions";
+"learning_youth" = "Learning & Youth";
+"digital_modern_life" = "Digital & Modern Life";
+"spiritual_growth" = "Spiritual Growth";
+
+// About TAB
+"about" = "About";
+"more" = "More";
+"more_title" = "More "; //"About Wisdom - App"; 
+"future_enhancements" = "What's Next";
+"read_gita_english" = " Downloadable Link - English";
+"read_gita_spanish" = " Downloadable Link - Spanish";
+"about_description_short" = "Description";
+"english_version" = "English";
+"spanish_version" = "Spanish";
+"upcoming_features_description" = "Awesome Stuff Coming your way";
+
+// Chapter titles
+// Gita Chapter Titles (Retaining original values)
+"ch1_title" = "Arjuna's Dilemma";
+"ch2_title" = "The Way of Knowledge";
+"ch3_title" = "The Path of Action";
+"ch4_title" = "Path of Knowledge and Action";
+"ch5_title" = "The Path of Renunciation";
+"ch6_title" = "The Path of Meditation";
+"ch7_title" = "Supreme Knowledge and Wisdom";
+"ch8_title" = "The Eternal Brahman";
+"ch9_title" = "The Royal Knowledge and Royal Secret";
+"ch10_title" = "Divine Glories";
+"ch11_title" = "The Vision of the Universal Form";
+"ch12_title" = "The Path of Devotion";
+"ch13_title" = "The Field and the Knower";
+"ch14_title" = "The Three Modes of Nature";
+"ch15_title" = "The Supreme Person";
+"ch16_title" = "Divine and Demoniac Natures";
+"ch17_title" = "The Threefold Division of Faith";
+"ch18_title" = "Freedom Through Renunciation";
+
+// Chapter Themes (No change)
+"ch1_theme" = "Moral/Inner Crisis and Duty";
+"ch2_theme" = "Eternal Soul and Steady Wisdom";
+"ch3_theme" = "Selfless Action and Duty";
+"ch4_theme" = "Wisdom and Sacred Tradition";
+"ch5_theme" = "True Renunciation and Inner Freedom";
+"ch6_theme" = "Discipline and Inner Stillness";
+"ch7_theme" = "Understanding Divine Nature";
+"ch8_theme" = "Transcendence and the Eternal";
+"ch9_theme" = "Devotion and Divine Grace";
+"ch10_theme" = "Recognizing Divine Manifestations";
+"ch11_theme" = "The Cosmic Vision";
+"ch12_theme" = "Love, Surrender, and Service";
+"ch13_theme" = "Body, Soul, and Consciousness";
+"ch14_theme" = "Forces of Nature and Transcendence";
+"ch15_theme" = "The Ultimate Reality";
+"ch16_theme" = "Character and Moral Qualities";
+"ch17_theme" = "Faith, Food, and Practice";
+"ch18_theme" = "Ultimate Surrender and Liberation";
+
+// Common phrases
+"namaste" = "Namaste";
+"om_shanti" = "Om Shanti";
+"sri_krishna" = "Sri Krishna";
+"bhagavad_gita" = "Bhagavad Gita";
+
+// Chapter Browser
+"chapters_of_wisdom" = "18 Chapters of Wisdom";
+"complete_gita_guide" = "Complete Bhagavad Gita Guide";
+"search_chapters_placeholder" = "Search chapters, themes, or Sanskrit names...";
+"scenarios" = "scenarios";
+"verses" = "verses";
+"chapter_statistics" = "📊 Chapter Statistics";
+"statistics" = "Statistics";
+"avg_chapter" = "Avg/Chapter";
+"total" = "total";
+
+// Chapter Detail
+"overview" = "Overview";
+"read_more" = "Read more";
+"key_teachings" = "Key Teachings";
+"modern_applications" = "Modern Applications";
+"related_scenarios" = "Related Scenarios";
+"no_scenarios_available" = "No scenarios available for this chapter yet.";
+"view_all_scenarios" = "View All %d Scenarios";
+"chapter_number" = "Chapter %d";
+
+// Add these to your Localizable.strings files
+"chapters_of_wisdom" = "18 Chapters of Wisdom"; // English
+"complete_gita_guide" = "Complete Bhagavad Gita Guide"; // English
+"search_chapters_placeholder" = "Search chapters, themes, or Sanskrit names..."; // English
+"avg_chapter" = "Avg/Chapter"; // English
+"chapter_statistics" = "📊 Chapter Statistics"; // English
+"statistics" = "Statistics"; // English
+"total" = "total"; // English
+"overview" = "Overview"; // English
+"read_more" = "Read more"; // English
+"key_teachings" = "Key Teachings"; // English
+"modern_applications" = "Modern Applications"; // English
+"related_scenarios" = "Related Scenarios"; // English
+"no_scenarios_available" = "No scenarios available for this chapter yet."; // English
+"view_all_scenarios" = "View All %d Scenarios"; // English
+"chapter_number" = "Chapter %d"; // English
+"teachings" = "Teachings"; // English
+
+// WisdomResponseView Keys
+"chapter_number" = "Chapter %d";
+"the_dilemma" = "The Dilemma";
+"wisdom_from_gita" = "Wisdom from the Gita";
+"suggested_actions" = "✅ Suggested Actions";
+"reflect_journal" = "Reflect & Journal";
+"explore_more_scenarios" = "Explore More Scenarios";
+"guidance" = "Guidance";
+"your_reflection" = "Your Reflection";
+"reflection_placeholder" = "How does this scenario relate to your life? What insights did you gain from the Gita's wisdom?";
+"your_chosen_path" = "Your Chosen Path";
+"follow_heart" = "Follow Heart";
+"follow_duty" = "Follow Duty";
+"balanced_approach" = "Balanced Approach";
+"expected_outcome" = "Expected Outcome";
+"outcome_placeholder" = "What do you expect will happen with your chosen approach?";
+"how_helpful_guidance" = "How Helpful Was This Guidance?";
+"not_helpful" = "Not Helpful";
+"very_helpful" = "Very Helpful";
+"journal_entry" = "Journal Entry";
+"cancel" = "Cancel";
+"save" = "Save";
+
+"the_two_paths" = "The Two Paths";
+"heart_says" = "💭 Heart Says";
+"duty_says" = "⚖️ Duty Says";
+"related_topics" = "Related Topics";
+"get_gita_wisdom" = "Get Gita's Wisdom";
+
+// ChapterBrowserView Keys
+"chapters_wisdom_title" = "18 Chapters of Wisdom";
+"explore_complete_gita" = "Explore the complete Bhagavad Gita";
+"search_chapters" = "Search chapters...";
+
+// HomeView Keys
+"gita_guide" = "Wisdom Guide";
+"ancient_wisdom_modern_dilemmas" = "Ancient Wisdom for Modern Dilemmas";
+"todays_dilemma" = "Today's Dilemma";
+"heart_says_short" = "💭 Heart Says:";
+"duty_says_short" = "⚖️ Duty Says:";
+"get_wisdom" = "Get Wisdom";
+"random_scenario" = "Random Scenario";
+"my_journal" = "My Journal";
+"browse_all" = "Browse All";
+"gita_shalokas" = "Gita Shalokas";
+"recent_reflections" = "Recent Reflections";
+"reflection" = "Reflection";
+
+// JournalView Keys
+"all" = "All";
+"recent" = "Recent";
+"high_rated" = "High Rated";
+"by_category" = "By Category";
+"start_wisdom_journey" = "Start Your Wisdom Journey";
+"journal_description" = "Reflect on dilemmas and track your growth using ancient wisdom. Your insights will be saved here.";
+"explore_scenarios" = "Explore Scenarios";
+"entries" = "Entries";
+"avg_rating" = "Avg Rating";
+"categories" = "Categories";
+"path_chosen" = "Path chosen:";
+"expected_outcome_label" = "Expected outcome:";
+
+// LoadingScreenView Keys
+"loading_wisdom" = "Loading wisdom...";
+
+// ScenarioCardView & StickFigureView Keys
+"heart_short" = "💭 Heart";
+"duty_short" = "⚖️ Duty";
+"heart_says" = "💭 Heart Says";
+"duty_says" = "⚖️ Duty Says";
+
+// Character & Animation View Keys
+"arjuna" = "Arjuna";
+"krishna" = "Krishna";
+"the_warrior" = "The Warrior";
+"the_guide" = "The Guide";
+"young_warrior" = "Young Warrior";
+"divine_friend" = "Divine Friend";
+"the_eternal_dilemma" = "The Eternal Dilemma";
+"attachment" = "Attachment";
+"dharma" = "Dharma";
+"righteous_duty" = "Righteous Duty";
+"the_big_decision" = "The Big Decision";
+"dharma_says" = "Dharma Says";
+"gita_wisdom_quote" = "\"Your right is to perform your actions, but never to the fruits of action.\"";
+"growth_quote" = "\"Sometimes the hardest choices lead to the greatest growth!\"";
+
+//NISHANT VERSION 1.0 STRING LOCALIZATION
+
+// Chapter 1 – Key Teachings
+"ch1_teaching1" = "Facing difficult decisions with courage";
+"ch1_teaching2" = "The conflict between emotion and duty";
+"ch1_teaching3" = "Seeking guidance in times of confusion";
+"ch1_teaching4" = "Understanding righteous action (dharma)";
+"ch1_teaching5" = "Recognizing the limits of material relationships";
+
+// Chapter 1 – Modern Applications
+"ch1_app1" = "Balancing professional responsibilities with personal values";
+"ch1_app2" = "Making ethical choices in leadership roles";
+"ch1_app3" = "Difficult relationship choices";
+"ch1_app4" = "Overcoming fear of conflict in relationships";
+"ch1_app5" = "Standing up for what's right";
+
+// Chapter 1 – Description
+"ch1_description" = "The first chapter sets the stage for the Bhagavad Gita, depicting Arjuna's profound inner turmoil on the battlefield of Kurukshetra. Overwhelmed by attachment, compassion, and confusion, Arjuna lays down his weapons, refusing to fight against his own kin. His dilemma represents the universal human struggle between emotional bonds and dharma (righteous action), opening the door for Krishna's spiritual counsel.";
+
+// Chapter 2 – Key Teachings
+"ch2_teaching1" = "The soul is eternal and indestructible";
+"ch2_teaching2" = "Perform your duty without attachment";
+"ch2_teaching3" = "True wisdom brings equanimity";
+"ch2_teaching4" = "Do not grieve for the temporary";
+
+// Chapter 2 – Modern Applications
+"ch2_app1" = "Handling anxiety through self-awareness";
+"ch2_app2" = "Letting go of perfectionism and outcomes";
+"ch2_app3" = "Dealing with loss and change";
+"ch2_app4" = "Staying grounded during emotional turbulence";
+
+// Chapter 2 – Description
+"ch2_description" = "In this foundational chapter, Krishna imparts the knowledge of the eternal self (Atman), explaining that wise individuals do not lament for the body. He introduces the philosophy of Sankhya and emphasizes karma yoga — performing duty without attachment to results.";
+
+// Chapter 3 – Key Teachings
+"ch3_teaching1" = "Perform action without selfish desire";
+"ch3_teaching2" = "Duty is greater than inaction";
+"ch3_teaching3" = "The world functions through action";
+"ch3_teaching4" = "Lead by example through righteous behavior";
+
+// Chapter 3 – Modern Applications
+"ch3_app1" = "Ethical leadership at work";
+"ch3_app2" = "Practicing detachment in parenting";
+"ch3_app3" = "Selfless community service";
+"ch3_app4" = "Balancing ambition with humility";
+
+// Chapter 3 – Description
+"ch3_description" = "Krishna teaches the importance of karma yoga — selfless action performed as a duty to society and the divine. He cautions against inaction and emphasizes aligning personal conduct with universal responsibility.";
+
+// Chapter 4 – Key Teachings
+"ch4_teaching1" = "Divine origin of the Gita";
+"ch4_teaching2" = "Knowledge sanctifies action";
+"ch4_teaching3" = "Actions do not bind the wise";
+"ch4_teaching4" = "Approach the guru with humility";
+
+// Chapter 4 – Modern Applications
+"ch4_app1" = "Value of mentorship and tradition";
+"ch4_app2" = "Learning with humility";
+"ch4_app3" = "Balancing intellect and service";
+"ch4_app4" = "Seeing work as sacred";
+
+// Chapter 4 – Description
+"ch4_description" = "Krishna reveals that this spiritual wisdom is timeless and has been passed through divine lineage. He explains how actions performed with knowledge do not create bondage and encourages learning from a realized teacher.";
+
+// Chapter 5 – Key Teachings
+"ch5_teaching1" = "Renunciation is internal, not external";
+"ch5_teaching2" = "Selfless action leads to peace";
+"ch5_teaching3" = "True yogi sees all beings equally";
+"ch5_teaching4" = "Knowledge and action are both valid paths";
+
+// Chapter 5 – Modern Applications
+"ch5_app1" = "Letting go of ego in achievements";
+"ch5_app2" = "Living simply while staying active";
+"ch5_app3" = "Practicing non-attachment in relationships";
+"ch5_app4" = "Spirituality in daily life";
+
+// Chapter 5 – Description
+"ch5_description" = "Krishna clarifies that inner detachment, not withdrawal from action, is true renunciation. Both knowledge and action lead to liberation when practiced with the right mindset.";
+
+// Chapter 6 – Key Teachings
+"ch6_teaching1" = "Balance and moderation in spiritual life";
+"ch6_teaching2" = "Mind control is key to success";
+"ch6_teaching3" = "A true yogi sees all equally";
+"ch6_teaching4" = "The devoted yogi is never lost";
+
+// Chapter 6 – Modern Applications
+"ch6_app1" = "Daily meditation for mental clarity";
+"ch6_app2" = "Managing emotions through practice";
+"ch6_app3" = "Respecting all beings equally";
+"ch6_app4" = "Persevering through inner struggle";
+
+// Chapter 6 – Description
+"ch6_description" = "This chapter provides practical techniques for meditation and the ideal lifestyle of a yogi. Krishna emphasizes self-discipline, balance, and unwavering devotion.";
+// Chapter 7 – Key Teachings
+"ch7_teaching1" = "Material and spiritual energies of the Divine";
+"ch7_teaching2" = "Only the faithful truly know God";
+"ch7_teaching3" = "Few seek and attain true realization";
+"ch7_teaching4" = "Everything is pervaded by the Divine";
+
+// Chapter 7 – Modern Applications
+"ch7_app1" = "Seeing divinity in everyday life";
+"ch7_app2" = "Living with awareness and reverence";
+"ch7_app3" = "Trusting a higher purpose";
+"ch7_app4" = "Faith as a guiding force";
+
+// Chapter 7 – Description
+"ch7_description" = "Krishna introduces the concepts of His lower (material) and higher (spiritual) energies, and the importance of both faith and realization. Only those with deep devotion can perceive His true nature.";
+
+// Chapter 8 – Key Teachings
+"ch8_teaching1" = "Remembrance at the time of death matters";
+"ch8_teaching2" = "The eternal, unchanging Brahman";
+"ch8_teaching3" = "Paths of light and darkness";
+"ch8_teaching4" = "Devotion ensures a divine destination";
+
+// Chapter 8 – Modern Applications
+"ch8_app1" = "Preparing spiritually for life’s end";
+"ch8_app2" = "Living with awareness of the soul";
+"ch8_app3" = "Being mindful of thoughts and habits";
+"ch8_app4" = "Contemplating higher truths";
+
+// Chapter 8 – Description
+"ch8_description" = "Krishna reveals the path to attain the imperishable Brahman, the Supreme, by remembering Him at the moment of death. He explains the two paths—of return and no return—and assures liberation to the devoted.";
+
+// Chapter 9 – Key Teachings
+"ch9_teaching1" = "Supreme knowledge is simple and pure";
+"ch9_teaching2" = "The Divine sustains all, yet remains detached";
+"ch9_teaching3" = "Even sinners attain liberation through devotion";
+"ch9_teaching4" = "Faith and love are key to union with the Divine";
+
+// Chapter 9 – Modern Applications
+"ch9_app1" = "Living a life of faith and surrender";
+"ch9_app2" = "Trusting divine support in difficult times";
+"ch9_app3" = "Opening to grace beyond logic";
+"ch9_app4" = "Serving with love and devotion";
+
+// Chapter 9 – Description
+"ch9_description" = "Krishna shares the most confidential spiritual knowledge—the power of bhakti. He explains that sincere devotion, even from the most fallen, leads to liberation, and assures that He is always with the faithful.";
+
+// Chapter 10 – Key Teachings
+"ch10_teaching1" = "God is the source of all excellence";
+"ch10_teaching2" = "Divine glories are vast and infinite";
+"ch10_teaching3" = "Devotion deepens with knowledge";
+"ch10_teaching4" = "True wisdom lies in seeing God in all";
+
+// Chapter 10 – Modern Applications
+"ch10_app1" = "Appreciating the sacred in beauty and talent";
+"ch10_app2" = "Inspiration from nature and greatness";
+"ch10_app3" = "Recognizing divinity in leaders and teachers";
+"ch10_app4" = "Celebrating uniqueness as divine spark";
+
+// Chapter 10 – Description
+"ch10_description" = "Krishna reveals how He manifests through excellence in creation—from intellect to natural forces. Recognizing these glories strengthens love and awe for the Divine.";
+
+// Chapter 11 – Key Teachings
+"ch11_teaching1" = "Krishna grants divine vision to Arjuna";
+"ch11_teaching2" = "The universal form contains all beings";
+"ch11_teaching3" = "Divine power is beyond time and form";
+"ch11_teaching4" = "True devotion arises from awe and surrender";
+
+// Chapter 11 – Modern Applications
+"ch11_app1" = "Expanding consciousness beyond ego";
+"ch11_app2" = "Finding humility in the vastness of life";
+"ch11_app3" = "Facing destiny with courage";
+"ch11_app4" = "Seeing the oneness behind diversity";
+
+// Chapter 11 – Description
+"ch11_description" = "Arjuna beholds Krishna’s Vishwarupa (universal form), witnessing the entire cosmos as one divine reality. Overwhelmed, he realizes the Supreme's timeless power and surrenders with reverence.";
+
+// Chapter 12 – Key Teachings
+"ch12_teaching1" = "Devotion is the most accessible path";
+"ch12_teaching2" = "The qualities of a true devotee";
+"ch12_teaching3" = "Even simple offerings are accepted with love";
+"ch12_teaching4" = "God dwells in the hearts of the humble";
+
+// Chapter 12 – Modern Applications
+"ch12_app1" = "Practicing compassion and humility";
+"ch12_app2" = "Finding joy in simple acts of love";
+"ch12_app3" = "Embracing spirituality without rituals";
+"ch12_app4" = "Living with pure intent and surrender";
+
+// Chapter 12 – Description
+"ch12_description" = "Krishna describes bhakti (devotion) as the supreme path. He lovingly details the qualities of His dearest devotees and assures that even the smallest act of love, when offered with sincerity, is accepted.";
+
+// Chapter 13 – Key Teachings
+"ch13_teaching1" = "Distinction between body and soul";
+"ch13_teaching2" = "God is the ultimate knower of all fields";
+"ch13_teaching3" = "True knowledge liberates the soul";
+"ch13_teaching4" = "Understanding material vs spiritual reality";
+
+// Chapter 13 – Modern Applications
+"ch13_app1" = "Exploring identity beyond the physical";
+"ch13_app2" = "Managing emotions through spiritual detachment";
+"ch13_app3" = "Contemplating the soul’s purpose";
+"ch13_app4" = "Respecting life as a sacred experience";
+
+// Chapter 13 – Description
+"ch13_description" = "Krishna explains the difference between the body (field) and the conscious self (knower). This metaphysical framework leads to liberation through right understanding of self and the Divine.";
+
+// Chapter 14 – Key Teachings
+"ch14_teaching1" = "Sattva (purity), Rajas (passion), Tamas (inertia)";
+"ch14_teaching2" = "Gunas bind the soul to material existence";
+"ch14_teaching3" = "Transcending gunas leads to liberation";
+"ch14_teaching4" = "Devotion frees one from material influence";
+
+// Chapter 14 – Modern Applications
+"ch14_app1" = "Recognizing personal behavior patterns";
+"ch14_app2" = "Choosing higher qualities in thought and action";
+"ch14_app3" = "Breaking negative habits and conditioning";
+"ch14_app4" = "Living with awareness of inner balance";
+
+// Chapter 14 – Description
+"ch14_description" = "Krishna categorizes the three modes of material nature (gunas) and how they shape human behavior. True freedom comes by rising above these qualities through devotion and awareness.";
+
+// Chapter 15 – Key Teachings
+"ch15_teaching1" = "Material world is like an upside-down tree";
+"ch15_teaching2" = "The soul is a fragment of the Supreme";
+"ch15_teaching3" = "The Supreme Person is beyond time and matter";
+"ch15_teaching4" = "Only through devotion can He be known";
+
+// Chapter 15 – Modern Applications
+"ch15_app1" = "Finding direction amid chaos";
+"ch15_app2" = "Understanding life's root in the Divine";
+"ch15_app3" = "Seeking spiritual identity";
+"ch15_app4" = "Living with transcendental purpose";
+
+// Chapter 15 – Description
+"ch15_description" = "Through poetic imagery, Krishna describes the perishable material world and the eternal soul. He reveals Himself as the Purushottama—the Supreme Divine Person—who can only be realized through devotion.";
+
+// Chapter 16 – Key Teachings
+"ch16_teaching1" = "Traits of divine and demoniac nature";
+"ch16_teaching2" = "Ego and desire lead to downfall";
+"ch16_teaching3" = "Discipline and humility lead to growth";
+"ch16_teaching4" = "Dharma and shastra guide the righteous";
+
+// Chapter 16 – Modern Applications
+"ch16_app1" = "Character building and self-discipline";
+"ch16_app2" = "Choosing positive over toxic behaviors";
+"ch16_app3" = "Following spiritual guidance";
+"ch16_app4" = "Understanding consequences of intentions";
+
+// Chapter 16 – Description
+"ch16_description" = "Krishna distinguishes between divine and demoniac qualities, urging Arjuna to cultivate humility, self-control, and faith. Demoniac traits lead to bondage; divine ones to liberation.";
+
+// Chapter 17 – Key Teachings
+"ch17_teaching1" = "Faith aligns with one's inner nature";
+"ch17_teaching2" = "Sattvic faith leads to clarity and purity";
+"ch17_teaching3" = "Sacrifice, austerity, and charity must be selfless";
+"ch17_teaching4" = "Intention determines spiritual value";
+
+// Chapter 17 – Modern Applications
+"ch17_app1" = "Being mindful of diet and habits";
+"ch17_app2" = "Practicing meaningful rituals";
+"ch17_app3" = "Offering help with selfless motive";
+"ch17_app4" = "Aligning belief with purity and truth";
+
+// Chapter 17 – Description
+"ch17_description" = "Faith, food, and rituals vary by the gunas. Krishna explains how sattvic faith uplifts, while rajasic and tamasic practices degrade. He emphasizes purity in thought, deed, and offering.";
+
+// Chapter 18 – Key Teachings
+"ch18_teaching1" = "Renunciation of ego, not action";
+"ch18_teaching2" = "Dharma must guide all decisions";
+"ch18_teaching3" = "Surrender to the Divine brings freedom";
+"ch18_teaching4" = "Krishna is the ultimate refuge";
+
+// Chapter 18 – Modern Applications
+"ch18_app1" = "Letting go of pride in accomplishments";
+"ch18_app2" = "Performing duty with spiritual intent";
+"ch18_app3" = "Living in tune with one's dharma";
+"ch18_app4" = "Seeking refuge in higher wisdom";
+
+// Chapter 18 – Description
+"ch18_description" = "The final chapter synthesizes all teachings. Krishna urges Arjuna to act according to his duty, surrender his ego, and take full refuge in the Divine to attain liberation (moksha).";
