@@ -124,6 +124,7 @@
      @EnvironmentObject var quotesManager: WisdomQuotesManager
      @StateObject private var localizationManager = LocalizationManager.shared
      @State private var showingDailyScenario = false
+     @StateObject private var themeManager = ThemeManager.shared
 
      var body: some View {
          NavigationView {
@@ -168,19 +169,28 @@
                  }
                  .padding(.bottom)
              }
+      // NISHANT V5.0 changing the existing backgtriund for RANDOM COLOR
+             /*
              .background(
                  LinearGradient(colors: [
                      Color("BGStart"), Color("BGEnd")
                  ], startPoint: .top, endPoint: .bottom)
                  .ignoresSafeArea()
+             */
+             .background(
+                 //themeManager.currentTheme
+                themeManager.currentTheme.gradient.opacity(0.1) // 10% visible
+                     .ignoresSafeArea()
              )
+             .onAppear {
+                 themeManager.changeTheme()
+             }
+            // .ignoresSafeArea()
+             // )
             // .navigationBarHidden(true)
          }
      }
  }
-
-   
-
 
     // GLASS EFFECT VERSION 1.0 WORKING
 

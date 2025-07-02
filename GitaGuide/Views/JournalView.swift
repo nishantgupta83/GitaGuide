@@ -11,6 +11,7 @@ struct JournalView: View {
     @EnvironmentObject var scenariosManager: ScenariosManager
     @StateObject private var localizationManager = LocalizationManager.shared
     @State private var selectedFilter: JournalFilter = .all
+    @State private var showNewEntry = false
     
     enum JournalFilter: String, CaseIterable {
         case all = "all"
@@ -70,6 +71,19 @@ struct JournalView: View {
                 }
             }
             .navigationTitle("my_journal".localized)
+            .sheet(isPresented: $showNewEntry) {
+                StandaloneJournalEntryView()
+                    .environmentObject(scenariosManager)
+            }
+
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: { showNewEntry = true }) {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
+
         }
     }
 }

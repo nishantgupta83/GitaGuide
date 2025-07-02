@@ -149,6 +149,7 @@ enum LifeCategory: String, CaseIterable, Codable {
 //  Created by Developer on 6/23/2025.
 //
 
+/*
 import Foundation
 import SwiftUI
 
@@ -202,6 +203,115 @@ enum LifeCategory: String, CaseIterable, Codable {
 // Extension to maintain compatibility with existing code
 extension LifeCategory {
     // This ensures existing code that checks category.rawValue still works
+    var categoryKey: String {
+        return self.rawValue
+    }
+}
+
+*/
+
+
+//
+//  LifeCategory.swift
+//  GitaGuide
+//
+//  Created by Developer on 6/23/2025.
+//
+
+import Foundation
+import SwiftUI
+
+enum LifeCategory: String, CaseIterable, Codable {
+    case personal         // self_identity
+    case relationships    // family_relationships
+    case work             // work_duty
+    case ethics           // morals_dilemmas
+    case mentalHealth     // mind_emotions
+    case education        // learning_youth
+    case digital          // digital_modern_life
+    case spiritual        // spiritual_growth
+
+    // Extra categories used in legacy JSON or extended scenarios
+    case family
+    case duty
+    case friendship
+    case leadership
+    case conflict
+    case moralDilemma
+    case school
+    case childhood
+    case social
+    case gengap
+    case love
+    case relationship
+
+    // MARK: - Localized display name
+    var localizedName: String {
+        switch self {
+        case .personal: return "self_identity".localized
+        case .relationships: return "family_relationships".localized
+        case .work: return "work_duty".localized
+        case .ethics: return "morals_dilemmas".localized
+        case .mentalHealth: return "mind_emotions".localized
+        case .education: return "learning_youth".localized
+        case .digital: return "digital_modern_life".localized
+        case .spiritual: return "spiritual_growth".localized
+        case .family: return "family".localized
+        case .duty: return "duty".localized
+        case .friendship: return "friendship".localized
+        case .leadership: return "leadership".localized
+        case .conflict: return "conflict".localized
+        case .moralDilemma: return "moral_dilemma".localized
+        case .school: return "school".localized
+        case .childhood: return "childhood".localized
+        case .social: return "social".localized
+        case .gengap: return "generational_gap".localized
+        case .love: return "love".localized
+        case .relationship: return "relationships".localized
+        }
+    }
+
+    var icon: String {
+        switch self {
+        case .personal: return "person.crop.circle.fill"
+        case .relationships, .relationship, .love, .friendship: return "heart.circle.fill"
+        case .work, .duty: return "briefcase.fill"
+        case .ethics, .moralDilemma: return "scale.3d"
+        case .mentalHealth: return "brain.head.profile"
+        case .education, .school: return "graduationcap.fill"
+        case .digital, .social: return "iphone.radiowaves.left.and.right"
+        case .spiritual: return "sparkles"
+        case .family: return "house.fill"
+        case .leadership: return "crown.fill"
+        case .conflict: return "exclamationmark.triangle.fill"
+        case .childhood: return "gamecontroller.fill"
+        case .gengap: return "figure.2.and.child.holdinghands"
+        }
+    }
+
+    var color: Color {
+        switch self {
+        case .personal: return .orange
+        case .relationships, .relationship, .love, .friendship: return .mint
+        case .work, .duty: return .blue
+        case .ethics, .moralDilemma: return .purple
+        case .mentalHealth: return .teal
+        case .education, .school: return .indigo
+        case .digital, .social: return .gray
+        case .spiritual: return .indigo
+        case .family: return .green
+        case .leadership: return .yellow
+        case .conflict: return .red
+        case .childhood: return .pink
+        case .gengap: return .brown
+        }
+    }
+
+    // Backward compatibility
+    var displayName: String {
+        return localizedName
+    }
+
     var categoryKey: String {
         return self.rawValue
     }

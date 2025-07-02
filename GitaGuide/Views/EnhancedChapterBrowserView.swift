@@ -60,7 +60,12 @@ struct EnhancedChapterBrowserView: View {
                 ScrollView {
                     VStack(spacing: 0) {
                         // Parallax Header
-                        ParallaxHeaderView(scrollOffset: scrollOffset)
+                        ParallaxHeaderWithStatsView(chapterCount: Int(18),
+                                                    scenarioCount: Int(scenariosManager.totalScenariosCount),
+                                                    avgPerChapter: Double(scenariosManager.totalScenariosCount) / 18.0
+                                                    //scrollOffset: scrollOffset
+
+                        )
                             .opacity(headerOpacity)
                         
                         // Stats Overview
@@ -152,7 +157,10 @@ struct ChapterStatsView: View {
     var totalChapters: Int { 18 }
     var totalScenarios: Int { scenariosManager.totalScenariosCount }
     var avgScenariosPerChapter: Double { Double(totalScenarios) / Double(totalChapters) }
+   // var scrollOffsetVal: CGFloat
     
+  // NISHANT V5.0 CHANGING THE BELOW FOR MORE FLUID CHANGE
+ /*
     var body: some View {
         HStack(spacing: 20) {
             StatsPill(
@@ -177,6 +185,18 @@ struct ChapterStatsView: View {
             )
         }
     }
+    */
+    
+        var body: some View {
+            ParallaxHeaderWithStatsView(
+                chapterCount: totalChapters,
+                scenarioCount: totalScenarios,
+                avgPerChapter: avgScenariosPerChapter
+              //  CGFloat
+            )
+        }
+
+
 }
 
 // UPDATED: Use UnifiedStatCard
@@ -207,13 +227,17 @@ struct ChapterQuickStatsView: View {
                 color: .orange
             )
         }
+       // .padding(.horizontal,20)
     }
+        
 }
 
 // REMOVE the old StatCard definition - it's now replaced by UnifiedStatCard
 
 // Keep all other existing structs (ParallaxHeaderView, SearchBarView, etc.) unchanged...
 
+// NISHANT V5.--0 working version. changiing to enhance the glass efect
+/*
 struct ParallaxHeaderView: View {
     let scrollOffset: CGFloat
     
@@ -237,11 +261,11 @@ struct ParallaxHeaderView: View {
             
             // Content
             VStack(spacing: 12) {
-                Text("🕉️")
+               /* Text("🕉️")
                     .font(.system(size: 60))
-                    .scaleEffect(1 + (scrollOffset * 0.001))
+                    .scaleEffect(1 + (scrollOffset * 0.001))*/
                 
-                Text("18 Chapters of Wisdom")
+                Text("Chapters of Wisdom")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
@@ -256,7 +280,130 @@ struct ParallaxHeaderView: View {
         .clipped()
     }
 }
+*/
 
+struct StatCardView: View {
+    let countText: String
+    let label: String
+    let color: Color
+
+    var body: some View {
+        VStack(spacing: 4) {
+            Text(countText)
+                .font(.title.bold())
+                .foregroundColor(color)
+
+            Text(label)
+                .font(.caption)
+                .foregroundColor(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+        .padding()
+        .background(
+            RoundedRectangle(cornerRadius: 14)
+                .fill(Color.primary.opacity(0.04))
+        )
+    }
+}
+
+struct ParallaxHeaderWithStatsView: View {
+    let chapterCount: Int
+    let scenarioCount: Int
+    let avgPerChapter: Double
+ //   let scrollOffset: CGFloat
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            // Title & subtitle
+            VStack(alignment: .leading, spacing: 6) {
+                Text("Chapters of Wisdom")
+                    .font(.title.bold())
+                    .foregroundColor(.primary)
+
+                Text("Complete Bhagavad Gita Guide")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+
+            // Stats cards
+            HStack(spacing: 12) {
+                StatCardView(countText: "\(chapterCount)", label: "Chapters", color: .orange)
+                StatCardView(countText: "\(scenarioCount)", label: "Scenarios", color: .blue)
+                StatCardView(countText: String(format: "%.1f", avgPerChapter), label: "Avg/Chapter", color: .green)
+            }
+        }
+        .padding()
+        .background(
+            RoundedRectangle(cornerRadius: 20)
+                .fill(
+                    LinearGradient(
+                        gradient: Gradient(colors: [
+                            Color.orange.opacity(0.08),
+                            Color.yellow.opacity(0.04)
+                        ]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 20)
+                        .stroke(Color.orange.opacity(0.1), lineWidth: 1)
+                )
+                .shadow(color: .black.opacity(0.05), radius: 6, x: 0, y: 4)
+        )
+        .padding(.horizontal, 20)
+        .padding(.top, 16)
+    }
+}
+
+
+// NEW VERSION 2.0 STILL NOT WORKING
+/*
+struct ParallaxHeaderView: View {
+    let scrollOffset: CGFloat
+
+    var body: some View {
+        VStack(spacing: 12) {
+            // Background gradient
+            RoundedRectangle(cornerRadius: 0)
+                .fill(
+                    LinearGradient(
+                        gradient: Gradient(colors: [
+                            Color.orange.opacity(0.3),
+                            Color.yellow.opacity(0.2),
+                            Color.blue.opacity(0.1)
+                        ]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .frame(height: 200)
+                .overlay(
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Chapters of Wisdom")
+                            .font(.title.bold())
+                            .foregroundColor(.primary)
+
+                        Text("Complete Bhagavad Gita Guide")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.top, 40)
+                    .offset(y: scrollOffset * 0.3),
+                    alignment: .bottomLeading
+                )
+                .offset(y: scrollOffset * 0.5)
+
+            // Spacer between banner and stats
+            Spacer().frame(height: 20)
+        }
+        .frame(maxWidth: .infinity)
+        .clipped()
+    }
+}
+
+*/
 
 
 struct SearchBarView: View {

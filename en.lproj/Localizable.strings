@@ -36,12 +36,25 @@
 "about" = "About";
 "all" = "All";
 "search_scenarios" = "Search scenarios...";
-"about_title" = "About Wisdom Guide";
-"about_description" = "Wisdom Guide transforms the timeless wisdom of the Bhagavad Gita into practical guidance for modern life decisions.";
-"about_chapter1" = "Based on Chapter 1: Arjuna's Dilemma";
-"about_chapter1_description" = "The first chapter of the Bhagavad Gita presents the universal human dilemma - the conflict between emotion and duty, personal attachment and righteous action. This app helps you navigate similar challenges in your daily life.";
-"how_it_works" = "How It Works";
-"how_it_works_description" = "• Explore real-life scenarios based on Gita wisdom\n• Get guidance on navigating difficult decisions\n• Journal your experiences and track your growth\n• Apply ancient wisdom to modern challenges";
+"about_title" = "Wisdom Guide";
+"about_description" = "
+GitaGuide is your personalized, modern-day companion to the timeless wisdom of the Bhagavad Gita. More than just a scripture app, it helps you apply Gita’s teachings to real-life situations—from work dilemmas and family challenges to mental well-being and teenage struggles.
+🔸 18 Chapters. Hundreds of Scenarios. One Inner Guide.
+Each chapter is carefully summarized with modern relevance and spiritual depth. Every verse is connected to practical life scenarios—making the teachings actionable, not abstract.
+🔸 Reflect & Journal
+Write your own reflections, rate your insights, and track your journey through our built-in journal. It's a space for introspection, growth, and clarity.
+🔸 Daily Wisdom, Randomly Inspired
+Start your day with a handpicked verse that shifts your perspective and helps you realign with purpose.
+🔸 Designed for the Mind & Soul
+Clean, intuitive design with dynamic color themes and personalized categories. Spiritual wisdom doesn’t have to feel ancient or overwhelming.
+";
+🔸 Multilingual. Multigenerational.
+Available in Hindi and English, GitaGuide is designed for all ages—from curious teens to reflective elders.
+
+"about_chapter1" = "" //"Based on Chapter 1: Arjuna's Dilemma";
+"about_chapter1_description" =""// "The first chapter of the Bhagavad Gita presents the universal human dilemma - the conflict between emotion and duty, personal attachment and righteous action. This app helps you navigate similar challenges in your daily life.";
+"how_it_works" = "" //"How It Works";
+"how_it_works_description" = ""//"• Explore real-life scenarios based on Gita wisdom\n• Get guidance on navigating difficult decisions\n• Journal your experiences and track your growth\n• Apply ancient wisdom to modern challenges";
 "gita_quote" = "\"Better is one's own dharma, though imperfectly performed, than the dharma of another well performed.\" - Bhagavad Gita";
 // LifeCategory Keys
 

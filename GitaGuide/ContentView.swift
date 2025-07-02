@@ -13,6 +13,61 @@ struct ContentView: View {
     @EnvironmentObject var scenariosManager: ScenariosManager
     @State private var selectedTab = 0
     @State private var showingLanguageSelection = false
+    @StateObject private var themeManager = ThemeManager.shared
+
+    var body: some View {
+        ZStack(alignment: .bottom) {
+            // Subtle theme background (10% opacity)
+        //    themeManager.currentTheme.gradient
+         //       .opacity(0.1)
+          //      .ignoresSafeArea()
+         //   Color.black.opacity(0.2).ignoresSafeArea()
+
+            TabView(selection: $selectedTab) {
+                HomeView()
+                    .tabItem {
+                        Label("home".localized, systemImage: "house.fill")
+                    }
+                    .tag(0)
+                
+                EnhancedChapterBrowserView()
+                    .tabItem {
+                        Label("chapters".localized, systemImage: "book.closed.fill")
+                    }
+                    .tag(1)
+                
+                ScenarioLibraryView()
+                    .tabItem {
+                        Label("scenarios".localized, systemImage: "list.bullet.rectangle.fill")
+                    }
+                    .tag(2)
+                
+                JournalView()
+                    .tabItem {
+                        Label("journal".localized, systemImage: "book.fill")
+                    }
+                    .tag(3)
+                
+                AboutView()
+                    .tabItem {
+                        Label("about".localized, systemImage: "info.circle.fill")
+                    }
+                    .tag(4)
+            }
+          //  .accentColor($themeManager.gradientStartColor.isBright ? .black : .white)
+         //   .accentColor(themeManager.currentTheme.startColor.isBright ? .black : .white)
+        
+        }
+    }
+}
+/*
+
+struct ContentView: View {
+    @EnvironmentObject var localizationManager: LocalizationManager
+    @EnvironmentObject var scenariosManager: ScenariosManager
+    @State private var selectedTab = 0
+    @State private var showingLanguageSelection = false
+    @StateObject private var themeManager = ThemeManager.shared
     
     
     var body: some View {
@@ -48,16 +103,29 @@ struct ContentView: View {
                     }
                     .tag(4)
             }
+         //NISHANT 5.0 replaced with colored theme    .accentColor(.orange)
+       //     .accentColor(themeManager.currentTheme.gradientStartColor.isBright ? .black : .white)
             .accentColor(.orange)
         }
         .background(
             RoundedRectangle(cornerRadius: 0)
                 .fill(.ultraThinMaterial)
-                .shadow(color: .black.opacity(0.15), radius: 10, y: -5)
+                .shadow(color: .black.opacity(0.35), radius: 10, y: -5)
+             //   .Color.white.opacity(0.2)
                 .ignoresSafeArea(edges: .bottom)
+            
+            // OR
+          //  VisualEffectBlur(blurStyle: .systemMaterial)
+           //     .clipShape(RoundedRectangle(cornerRadius: 30))
+              //  .shadow(radius: 10)
+            
+            // OR
+              //  .background(Color.white.opacity(0.2))
         )
+
     }}
-  
+  */
+
 struct ScenarioLibraryView: View {
     @EnvironmentObject var scenariosManager: ScenariosManager
     @State private var searchText = ""
@@ -143,7 +211,7 @@ struct AboutView: View {
                             }
                         }
 
-                        AnimatedCard {
+                  /*      AnimatedCard {
                             NavigationLink(destination: FutureEnhancementsView()) {
                                 IconCardView(
                                     title: "future_enhancements".localized,
@@ -168,7 +236,8 @@ struct AboutView: View {
                                     .padding(.leading)
                             }
                         }
-
+*/
+                        
                 /*        AnimatedCard {
                             VStack(alignment: .leading) {
                                 IconCardView(

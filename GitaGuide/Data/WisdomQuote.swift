@@ -40,7 +40,10 @@ class WisdomQuotesManager: ObservableObject {
         let calendar = Calendar.current
         let dayOfYear = calendar.ordinality(of: .day, in: .year, for: Date()) ?? 1
         let index = dayOfYear % quotes.count
-        dailyQuote = quotes[index]
+        if !quotes.isEmpty {
+               dailyQuote = quotes.randomElement()
+           }
+      //  dailyQuote = quotes[index]
     }
     
     func getRandomQuote() -> WisdomQuote {

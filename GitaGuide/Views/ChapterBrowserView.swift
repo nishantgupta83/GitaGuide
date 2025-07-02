@@ -312,12 +312,14 @@ struct ChapterBrowserView: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
-
+                        
                         Text("explore_complete_gita".localized)
                             .font(.subheadline)
                             .foregroundColor(.white.opacity(0.7))
                     }
+                    
                     .padding()
+                    
                     .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
                     .overlay(
                         RoundedRectangle(cornerRadius: 20)
@@ -325,6 +327,7 @@ struct ChapterBrowserView: View {
                     )
                     .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 5)
                     .padding(.horizontal)
+                   
                     .padding(.top)
 
                     // 🔍 Search Bar

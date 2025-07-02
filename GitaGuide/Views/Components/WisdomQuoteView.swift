@@ -23,6 +23,8 @@ struct WisdomQuoteView: View {
                 
                 Spacer()
                 
+          // NISHANT V5.0 Below button is of the wisdom quote pop out that is not needed currently
+           /*
                 Button(action: {
                     withAnimation(.spring()) {
                         showingNewQuote.toggle()
@@ -34,7 +36,10 @@ struct WisdomQuoteView: View {
                         .padding(8)
                         .background(Color.orange.opacity(0.1))
                         .clipShape(Circle())
-                }
+            
+            } */
+            
+                
             }
             
             // Quote content
